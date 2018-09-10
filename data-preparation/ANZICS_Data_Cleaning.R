@@ -3,7 +3,7 @@
 # ICU admission >24 h, no null values (died_hosp, weight, urineoutput, creatinine), adults
 #readmission allowed
 
-ANZICS=read.csv("/media/alanw/smalldrive/aw-medical-datasets/anzics-datathon-2018/anzics2/Sydney_datathon_APD2006to2016.csv")
+ANZICS=read.csv("Sydney_datathon_APD2006to2016.csv")
 ANZICS24=dplyr::filter(ANZICS, icu_hrs>=24)
 
 #Remove variables missing >10% data

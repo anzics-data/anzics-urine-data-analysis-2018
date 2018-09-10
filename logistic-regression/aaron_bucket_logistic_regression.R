@@ -2,7 +2,7 @@
 library(data.table)
 library(caret)
 
-anzics_data_directory <- '/media/alanw/smalldrive/aw-medical-datasets/anzics-datathon-2018/anzics/'
+anzics_data_directory <- './'
 
 socio_economic_data <- 'SocioEconomicData_forDatathon.csv.gz'
 ccr_data <- 'Sydney_datathon_CCR.csv.gz'
